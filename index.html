@@ -1,43 +1,95 @@
-<link rel="stylesheet" href="app.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
-<div class="gallery">
-	<ul class="cards">
-		<li>0</li>
-		<li>1</li>
-		<li>2</li>
-		<li>3</li>
-		<li>4</li>
-		<li>5</li>
-		<li>6</li>
-		<li>7</li>
-		<li>8</li>
-		<li>9</li>
-		<li>10</li>
-		<li>11</li>
-		<li>12</li>
-		<li>13</li>
-		<li>14</li>
-		<li>15</li>
-		<li>16</li>
-		<li>17</li>
-		<li>18</li>
-		<li>19</li>
-		<li>20</li>
-		<li>21</li>
-		<li>22</li>
-		<li>23</li>
-		<li>24</li>
-		<li>25</li>
-		<li>26</li>
-		<li>27</li>
-		<li>28</li>
-		<li>29</li>
-		<li>30</li>
-	</ul>
-	<div class="actions">
-		<button class="prev">Prev</button>
-		<button class="next">Next</button>
-	</div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
-<script src="app.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="app.css">
+  <script src="app.js"></script>
+</head>
+<body>
+  
+  
+  
+  <section>
+    <div class="swiper-container">
+      <div class=swiper-wrapper>
+        <div class="swiper-slide">
+          <div class="testimonialBox">
+            <img src="https://image.flaticon.com/icons/png/512/3021/3021790.png" alt="" class="quote">    
+            <div class="content">
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae beatae, maiores deserunt in voluptatibus aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur repellat eveniet quidem voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam autem nam ex deserunt debitis eaque ratione! Nobis, quidem assumenda.
+              </p>
+              <div class="details">
+                <div class="imgBx">
+                  <img src="people/Australian-actor-Chris-Hemsworth-2019.jpg" alt="">
+                </div>
+                <h3>Somone Famous<br><span>Creative Designer</span></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonialBox">
+            <img src="https://image.flaticon.com/icons/png/512/3021/3021790.png" alt="" class="quote">    
+            <div class="content">
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae beatae, maiores deserunt in voluptatibus aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur repellat eveniet quidem voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam autem nam ex deserunt debitis eaque ratione! Nobis, quidem assumenda.
+              </p>
+              <div class="details">
+                <div class="imgBx">
+                  <img src="people/Dwayne_Johnson_2,_2013.jpg" alt="">
+                </div>
+                <h3>Somone Famous<br><span>Creative Designer</span></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="swiper-slide">
+          <div class="testimonialBox">
+            <img src="https://image.flaticon.com/icons/png/512/3021/3021790.png" alt="" class="quote">    
+            <div class="content">
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae beatae, maiores deserunt in voluptatibus aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur repellat eveniet quidem voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam autem nam ex deserunt debitis eaque ratione! Nobis, quidem assumenda.
+              </p>
+              <div class="details">
+                <div class="imgBx">
+                  <img src="people/Will-Smith.jpg" alt="">
+                </div>
+                <h3>Somone Famous<br><span>Creative Designer</span></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 100,
+        modifier: 2,
+        slideShadows: true,
+      },
+      loop:true,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</body>
+</html>

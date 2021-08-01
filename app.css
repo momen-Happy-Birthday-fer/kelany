@@ -1,106 +1,120 @@
-* {
-	box-sizing: border-box;
-}
-body {
-	background: #111;
-	min-height: 100vh;
-	padding: 0;
-	margin: 0;
-}
-.gallery {
-	position: absolute;
-	width: 100%;
-	height: 100vh;
-	overflow: hidden;
+*
+{margin: 0;
+padding: 0;
+box-sizing: border-box;
+/* font-family: 'Poppins', sans-serif; */
 }
 
-.cards {
-	position: absolute;
-	width: 14rem;
-	height: 18rem;
-	top: 40%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+section
+{
+position: relative;
+width: 100%;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #2196f3;
 }
 
-.cards li {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	width: 14rem;
-	height: 18rem;
-	text-align: center;
-	line-height: 18rem;
-	font-size: 2rem;
-	font-family: sans-serif;
-	background-color: #9d7cce;
-	position: absolute;
-	top: 0;
-	left: 0;
-	border-radius: 0.8rem;
+.swiper-container {
+
+  width: 100%;
+padding-top: 50px;
+padding-bottom: 50px;
+
 }
 
-.actions {
-	position: absolute;
-	bottom: 25px;
-	left: 50%;
-	transform: translateX(-50%);
+.swiper-slide{
+
+  background-position: center;
+  background-size: cover;
+  width: 320px;
+box-shadow:0 15px 50px rgba(0, 0, 0, 0.2) ;
+filter: blur(4px);
+background: #d1ebff ;
+border-radius: 15px;
 }
 
-button {
-  display:inline-block;
-  outline: none;
-  border: none;
-  padding: 8px 14px;
-  background: #414141;
-  background-image: -webkit-linear-gradient(top, #575757, #414141);
-  background-image: -moz-linear-gradient(top, #575757, #414141);
-  background-image: -ms-linear-gradient(top, #575757, #414141);
-  background-image: -o-linear-gradient(top, #575757, #414141);
-  background-image: linear-gradient(to bottom, #575757, #414141);
-  text-shadow: 0px 1px 0px #414141;
-  -webkit-box-shadow: 0px 1px 0px 414141;
-  -moz-box-shadow: 0px 1px 0px 414141;
-  box-shadow: 0px 1px 0px 414141;
-  color: #ffffff;
-  text-decoration: none;
-  margin: 0 auto 10px;
-  -webkit-border-radius: 4;
-  -moz-border-radius: 4;
-  border-radius: 4px;
-  padding: 12px 25px;
-  font-family: "Signika Negative", sans-serif;
-  text-transform: uppercase;
-  font-weight: 600;
-  cursor: pointer;
-  font-size: 13px;
-  line-height: 18px;
+.swiper-slide-active
+{
+  filter: blur(0px);
+  background: #9d7cce;
+
 }
 
-button:hover {
-  background: #57a818;
-  background-image: -webkit-linear-gradient(top, #57a818, #4d9916);
-  background-image: -moz-linear-gradient(top, #57a818, #4d9916);
-  background-image: -ms-linear-gradient(top, #57a818, #4d9916);
-  background-image: -o-linear-gradient(top, #57a818, #4d9916);
-  background-image: linear-gradient(to bottom, #57a818, #4d9916);
-  text-shadow: 0px 1px 0px #32610e;
-  -webkit-box-shadow: 0px 1px 0px fefefe;
-  -moz-box-shadow: 0px 1px 0px fefefe;
-  box-shadow: 0px 1px 0px fefefe;
-  color: #ffffff;
-  text-decoration: none;
+.swiper-slide-active .testimonialBox{
+
+  color: white;
 }
 
-button {
-  font-size: 20px;
+.testimonialBox{
+  position: relative;
+  width: 100%;
+  padding: 40px;
+  padding-top: 90px;
+  color: #999;
+}
+
+.testimonialBox .quote{
+position: absolute;
+top: 10px;
+right: 15px;
+width: 60px;
+height: 60px;
+}
+
+.testimonialBox .details .quote img {
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonialBox .details {
+
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.testimonialBox .details .imgBx {
+position: relative;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+overflow: hidden;
+margin-right: 10px;
+}
+
+.testimonialBox .details .imgBx img {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonialBox .details h3 {
+
+  font-size: 16px;
   font-weight: 400;
+  letter-spacing: 1px;
+  color: #2196f3;
+  line-height: 1.1em;
 }
 
-a {
-  color: #88ce02;
-  text-decoration: none;
+.testimonialBox .details h3 span
+{
+font-size: 12px;
+color: #666;
+
 }
-a:hover {
-  text-decoration: underline;
+
+.swiper-container-3d .swiper-container-left,
+.swiper-container-3d.swiper-container-right
+{
+  background-image: none;
 }
