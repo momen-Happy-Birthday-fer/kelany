@@ -129,13 +129,13 @@ body{
   letter-spacing: 0.1em;
   text-align: center;
   /* line-height: 80px; */
-  text-shadow: 0 0 0px #DB5FFF,
+  text-shadow: 0 0 5px #DB5FFF,
   /* 0 0 10px #DB5FFF, */
   /* 0 0 20px #DB5FFF, */
   /* 0 0 40px #DB5FFF, */
-  0 0 80px #DB5FFF,
-  0 0 120px #DB5FFF;   
-  
+  /* 0 0 80px #DB5FFF, */
+  /* 0 0 120px #DB5FFF;    */
+     0 0 100px #DB5FFF;
   align-items: center;
   
 }
