@@ -149,9 +149,9 @@ body{
 
   font-family: 'BBSugarcoat', sans-serif;
   font-weight: 700;
-  /* font-size: 50px; */
+  font-size: 50px;
  color: #fff;
- text-shadow: 0 0 2px #e894ff;
+ text-shadow: 0 0 3px #e894ff;
 
 
 }
