@@ -32,9 +32,11 @@ table-lead {
 }
 
 /* Neon Font */
-@import url(https://db.onlinewebfonts.com/c/cf984f65c2e069f0eed597bb0cee542d?family=HTNeonW01-Regular);
-@import url(https://fonts.cdnfonts.com/css/diamant-handwriting);
-                
+@import url('https://db.onlinewebfonts.com/c/cf984f65c2e069f0eed597bb0cee542d?family=HTNeonW01-Regular');
+@import url('https://fonts.cdnfonts.com/css/diamant-handwriting');
+@import url('https://db.onlinewebfonts.com/c/bd13d74fa0bbb0bbedfb7dd0244b2016?family=Diamant+handwriting');           
+@font-face {font-family: "Diamant handwriting"; src: url("https://db.onlinewebfonts.com/t/bd13d74fa0bbb0bbedfb7dd0244b2016.eot"); src: url("https://db.onlinewebfonts.com/t/bd13d74fa0bbb0bbedfb7dd0244b2016.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/bd13d74fa0bbb0bbedfb7dd0244b2016.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/bd13d74fa0bbb0bbedfb7dd0244b2016.woff") format("woff"), url("https://db.onlinewebfonts.com/t/bd13d74fa0bbb0bbedfb7dd0244b2016.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/bd13d74fa0bbb0bbedfb7dd0244b2016.svg#Diamant handwriting") format("svg"); }
+
 *
 {margin: 0;
 padding: 0;
