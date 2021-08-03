@@ -32,9 +32,9 @@ table-lead {
 }
 
 /* Neon Font */
-@import url(//db.onlinewebfonts.com/c/cf984f65c2e069f0eed597bb0cee542d?family=HTNeonW01-Regular);
-@import url(//db.onlinewebfonts.com/c/66dfbd3722e8eda18b7cd325dfdc583e?family=Neon);
-
+@import url(https://db.onlinewebfonts.com/c/cf984f65c2e069f0eed597bb0cee542d?family=HTNeonW01-Regular);
+@import url('http://fonts.cdnfonts.com/css/diamant-handwriting');
+                
 *
 {margin: 0;
 padding: 0;
@@ -107,34 +107,50 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'HTNeonW01-Regular', cursive;
+  font-family: 'Diamant handwriting', cursive;
       margin-top: 200px;
 }
 
 
 .neon-box img{
-
-max-width: 45%;
-height: auto;
-margin-right: 20px;
-
+  
+  max-width: 40%;
+  height: auto;
+  margin-right: 20px;
+  
 }
 .neon-box h2{
-
+  
   color: #fff;
   font-size: 3em;
   /* font-weight: 600; */
   letter-spacing: 0.1em;
   text-align: center;
-  line-height: 80px;
-  text-shadow:0 0 10px #DB5FFF,
-              /* 0 0 20px #DB5FFF, */
-              0 0 40px #DB5FFF,
-              0 0 80px #DB5FFF,
-              0 0 120px #DB5FFF;
-              
+  /* line-height: 80px; */
+  text-shadow: 0 0 20px #DB5FFF,
+  /* 0 0 10px #DB5FFF, */
+  /* 0 0 20px #DB5FFF, */
+  /* 0 0 40px #DB5FFF, */
+  0 0 80px #DB5FFF,
+  0 0 120px #DB5FFF;   
+  
+  align-items: center;
+  
 }
 
+
+.neon-box .happy{
+
+  line-height: 120px;
+}
+.neon-box .twenty{
+
+  font-family: 'BBSugarcoat', sans-serif;
+  font-weight: 700;
+ color: #fff;
+  
+
+}
 
 
   .wrapper-swipper
