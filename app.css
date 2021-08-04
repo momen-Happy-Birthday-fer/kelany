@@ -303,8 +303,9 @@ font-size: 12px;
 
 .wrapper-polaroid {
   width: 100%;
-  padding: 0 2rem;
-  text-align: center;
+   /* padding: 0 2rem; */
+   text-align: center;
+   align-items: center;
 
 }
 .block-polaroid{
@@ -320,14 +321,25 @@ font-size: 12px;
   font-size: 1.125rem;
   text-align: center;
   line-height: 2em;
+  text-align: center;
 }
+
 .item {
   display: inline-block;
   margin-top: 2rem;
   filter: grayscale(100%);
   display: inline-flex;
-
+  width: 200px;
+  height: 220px;
+  overflow: hidden; 
+    
 }
+
+.item img {
+  max-width: 100%;
+  height: auto;
+}
+
 .item .polaroid:before {
   content: '';
   position: absolute;
