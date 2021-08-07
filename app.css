@@ -434,31 +434,33 @@ font-size: 12px;
 
 }
 
-.reasons-ul ul{
 
-overflow: hidden;
-
-}
-
-.reasons-ul li{
-
-  display: inline-table;
-}
 
 .table td, .table th {
   
   font-size: 1.1em;
-  font-family: 'Nunito', cursive;
-  font-weight: normal;
+  font-family: 'Kavivanar', cursive;
+  /* font-family: 'Caveat', cursive; */
+/* font-family: 'Just Another Hand', cursive; */
+  font-weight: 700;
 }
+.table .heart{
 
+  color: #9d7cce;
+}
 footer {
+  font-family: 'Nunito', cursive;
   font-size: small;
   text-align: center;
   color:#ea1c2c;
     text-shadow: 0 0 1px #fff;
 }
-footer span{
+footer .rights{
+
+font-weight: bold;
+}
+
+footer .credit{
 
   font-family: 'Bad Script', cursive;
   letter-spacing: 0.1em;
