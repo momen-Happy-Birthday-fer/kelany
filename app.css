@@ -41,8 +41,8 @@ table-lead {
 {margin: 0;
 padding: 0;
 box-sizing: border-box;
-/* font-family: 'Poppins', sans-serif; */
 }
+
 body{
 
   background: #f5d9d5;
@@ -60,6 +60,8 @@ body{
   #mainNavbar {
       font-size: 1.5rem;
       font-weight: 100;
+        font-family: "Nunito",sans-serif;
+
       }
   
       #mainNavbar .nav-link{
@@ -91,10 +93,12 @@ body{
   }
   
 
-  #mainNavbar:hover {
+  /* #mainNavbar:hover {
     background: rgb(222, 192, 222);
     padding-bottom: 200px;
-  }
+  } */
+  
+  
   /* @media (max-width: 1200px)
   {
   
@@ -115,7 +119,7 @@ body{
   justify-content: center;
   align-items: center;
   font-family: 'Diamant handwriting', cursive;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 
@@ -417,16 +421,6 @@ font-size: 12px;
   transition: all 0.35s;
 }
 
-.reasons{
-
-  position: relative;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
 
 .reasons-head {
     text-align: center;
@@ -436,13 +430,37 @@ font-size: 12px;
     letter-spacing: 0.1em;
     font-family: 'HTNeonW01-Regular', cursive;
     margin-top: 20%;
+    text-shadow: 0 0 1px #fff;
+
+}
+
+.reasons-ul ul{
+
+overflow: hidden;
+
+}
+
+.reasons-ul li{
+
+  display: inline-table;
+}
+
+.table td, .table th {
   
+  font-size: 1.1em;
+  font-family: 'Nunito', cursive;
+  font-weight: normal;
 }
 
-.reasons-left{
-  text-align:left
+footer {
+  font-size: small;
+  text-align: center;
+  color:#ea1c2c;
+    text-shadow: 0 0 1px #fff;
 }
+footer span{
 
-.reasons-right{
-  text-align:right
+  font-family: 'Bad Script', cursive;
+  letter-spacing: 0.1em;
+  font-weight: bolder;    
 }
