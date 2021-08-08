@@ -119,7 +119,7 @@ body{
   justify-content: center;
   align-items: center;
   font-family: 'Diamant handwriting', cursive;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 
@@ -431,38 +431,38 @@ font-size: 12px;
     font-family: 'HTNeonW01-Regular', cursive;
     margin-top: 20%;
     text-shadow: 0 0 1px #fff;
-    justify-content: center;
 
 }
 
-.reasons-ul ul{
 
-overflow: hidden;
 
-}
-
-.reasons-ul li{
-
-  display: inline-table;
-}
-
-.reasons-ul li:before{
+.table td, .table th {
   
-  content: "\2764";
+  font-size: 1.1em;
+  font-family: 'Kavivanar', cursive;
+  /* font-family: 'Caveat', cursive; */
+/* font-family: 'Just Another Hand', cursive; */
+  font-weight: 700;
+}
+.table .heart{
+
   color: #9d7cce;
-  margin-right:10px;
 }
-
-.li-left{
-  text-align:left;
-  font-size: 1.5em;
+footer {
   font-family: 'Nunito', cursive;
+  font-size: small;
+  text-align: center;
+  color:#ea1c2c;
+    text-shadow: 0 0 1px #fff;
+}
+footer .rights{
+
+font-weight: bold;
 }
 
-.li-right{
-  text-align:right;
-  font-size: 1.5em;
-  font-family: 'Nunito', cursive;
-justify-self: end;
-}
+footer .credit{
 
+  font-family: 'Bad Script', cursive;
+  letter-spacing: 0.1em;
+  font-weight: bolder;    
+}
