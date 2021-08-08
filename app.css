@@ -32,17 +32,15 @@ table-lead {
 }
 
 /* Neon Font */
-@import url('https://db.onlinewebfonts.com/c/cf984f65c2e069f0eed597bb0cee542d?family=HTNeonW01-Regular');
-@import url('https://fonts.cdnfonts.com/css/diamant-handwriting');
-@import url('https://db.onlinewebfonts.com/c/bd13d74fa0bbb0bbedfb7dd0244b2016?family=Diamant+handwriting');           
-@font-face {font-family: "Diamant handwriting"; src: url("https://db.onlinewebfonts.com/t/bd13d74fa0bbb0bbedfb7dd0244b2016.eot"); src: url("https://db.onlinewebfonts.com/t/bd13d74fa0bbb0bbedfb7dd0244b2016.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/bd13d74fa0bbb0bbedfb7dd0244b2016.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/bd13d74fa0bbb0bbedfb7dd0244b2016.woff") format("woff"), url("https://db.onlinewebfonts.com/t/bd13d74fa0bbb0bbedfb7dd0244b2016.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/bd13d74fa0bbb0bbedfb7dd0244b2016.svg#Diamant handwriting") format("svg"); }
-@font-face {font-family: "HTNeonW01-Regular"; src: url("https://db.onlinewebfonts.com/t/cf984f65c2e069f0eed597bb0cee542d.eot"); src: url("https://db.onlinewebfonts.com/t/cf984f65c2e069f0eed597bb0cee542d.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/cf984f65c2e069f0eed597bb0cee542d.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/cf984f65c2e069f0eed597bb0cee542d.woff") format("woff"), url("https://db.onlinewebfonts.com/t/cf984f65c2e069f0eed597bb0cee542d.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/cf984f65c2e069f0eed597bb0cee542d.svg#HTNeonW01-Regular") format("svg"); }
+@import url(//db.onlinewebfonts.com/c/cf984f65c2e069f0eed597bb0cee542d?family=HTNeonW01-Regular);
+@import url(//db.onlinewebfonts.com/c/66dfbd3722e8eda18b7cd325dfdc583e?family=Neon);
+
 *
 {margin: 0;
 padding: 0;
 box-sizing: border-box;
+/* font-family: 'Poppins', sans-serif; */
 }
-
 body{
 
   background: #f5d9d5;
@@ -60,8 +58,6 @@ body{
   #mainNavbar {
       font-size: 1.5rem;
       font-weight: 100;
-        font-family: "Nunito",sans-serif;
-
       }
   
       #mainNavbar .nav-link{
@@ -92,13 +88,6 @@ body{
       transition: background 500ms;
   }
   
-
-  /* #mainNavbar:hover {
-    background: rgb(222, 192, 222);
-    padding-bottom: 200px;
-  } */
-  
-  
   /* @media (max-width: 1200px)
   {
   
@@ -118,52 +107,34 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Diamant handwriting', cursive;
-  margin-top: 100px;
+  font-family: 'HTNeonW01-Regular', cursive;
+      margin-top: 200px;
 }
 
 
 .neon-box img{
-  
-  max-width: 41%;
-  height: auto;
-  margin-right: 20px;
-  
+
+max-width: 45%;
+height: auto;
+margin-right: 20px;
+
 }
 .neon-box h2{
-  
+
   color: #fff;
   font-size: 3em;
   /* font-weight: 600; */
   letter-spacing: 0.1em;
   text-align: center;
-  /* line-height: 80px; */
-  text-shadow: 0 0 5px #e894ff;
-  /* 0 0 10px #DB5FFF, */
-  /* 0 0 20px #DB5FFF, */
-  /* 0 0 40px #DB5FFF, */
-  /* 0 0 80px #DB5FFF, */
-  /* 0 0 120px #DB5FFF;    */
-    
-  align-items: center;
-  
+  line-height: 80px;
+  text-shadow:0 0 10px #DB5FFF,
+              /* 0 0 20px #DB5FFF, */
+              0 0 40px #DB5FFF,
+              0 0 80px #DB5FFF,
+              0 0 120px #DB5FFF;
+              
 }
 
-
-.neon-box .happy{
-
-  line-height: 120px;
-}
-.neon-box .twenty{
-
-  font-family: 'BBSugarcoat', sans-serif;
-  font-weight: 700;
-  font-size: 50px;
- color: #fff;
- text-shadow: 0 0 4px #e894ff;
-
-
-}
 
 
   .wrapper-swipper
@@ -312,9 +283,8 @@ font-size: 12px;
 
 .wrapper-polaroid {
   width: 100%;
-   /* padding: 0 2rem; */
-   text-align: center;
-   align-items: center;
+  padding: 0 2rem;
+  text-align: center;
 
 }
 .block-polaroid{
@@ -330,25 +300,14 @@ font-size: 12px;
   font-size: 1.125rem;
   text-align: center;
   line-height: 2em;
-  text-align: center;
 }
-
 .item {
   display: inline-block;
   margin-top: 2rem;
   filter: grayscale(100%);
   display: inline-flex;
-  width: 200px;
-  height: 220px;
-  overflow: hidden; 
-    
-}
 
-.item img {
-  max-width: 100%;
-  height: auto;
 }
-
 .item .polaroid:before {
   content: '';
   position: absolute;
@@ -421,6 +380,16 @@ font-size: 12px;
   transition: all 0.35s;
 }
 
+.reasons{
+
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 
 .reasons-head {
     text-align: center;
@@ -428,41 +397,15 @@ font-size: 12px;
     font-size: 2em;
     font-weight: 500;
     letter-spacing: 0.1em;
-    font-family: 'HTNeonW01-Regular', cursive;
+    font-family: 'HTNeonW01-Regular';
     margin-top: 20%;
-    text-shadow: 0 0 1px #fff;
-    justify-content: center;
-
-}
-
-.reasons-ul ul{
-
-overflow: hidden;
-
-}
-
-.reasons-ul li{
-
-  display: inline-table;
-}
-
-.reasons-ul li:before{
   
-  content: "\2764";
-  color: #9d7cce;
-  margin-right:10px;
 }
 
-.li-left{
-  text-align:left;
-  font-size: 1.5em;
-  font-family: 'Nunito', cursive;
+.reasons-left{
+  text-align:left
 }
 
-.li-right{
-  text-align:right;
-  font-size: 1.5em;
-  font-family: 'Nunito', cursive;
-justify-self: end;
+.reasons-right{
+  text-align:right
 }
-
