@@ -321,9 +321,7 @@
     </script>
   
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
@@ -335,6 +333,21 @@
               $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
           });
       });
+      var scrollBtn = document.querySelector("#mainNavbar > button > span");
+      var space = document.querySelector("#neon-box > div");
+      var counter = 0;
+      scrollBtn.addEventListener('click',()=>{
+        if(counter%2==0)
+        {
+          space.style.marginTop = '250px';
+          counter++;
+        }
+        else {
+          space.style.marginTop = '100px';
+          counter++;
+        }
+      })
   </script>
+    <footer id="the-end"><span class="rights"> All Rights Reserved.©2021 |</span> &nbsp; <span class="credit">By: Mo'men Kelany</span></footer>
   </body>
 </html>
