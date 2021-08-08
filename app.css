@@ -46,15 +46,7 @@ box-sizing: border-box;
 body{
 
   background: #f5d9d5;
-  /* font-family: "Nunito",sans-serif; */
   }  
-  
-
-  /* .content{
-  
-      margin-top: 100px;
-    
-  } */
  
 
   #mainNavbar {
@@ -92,20 +84,7 @@ body{
       transition: background 500ms;
   }
   
-
-  /* #mainNavbar:hover {
-    background: rgb(222, 192, 222);
-    padding-bottom: 200px;
-  } */
-  
-  
-  /* @media (max-width: 1200px)
-  {
-  
-     
-  
-  } */
-  
+ 
   
 
 
@@ -134,17 +113,10 @@ body{
   
   color: #fff;
   font-size: 3em;
-  /* font-weight: 600; */
   letter-spacing: 0.1em;
   text-align: center;
-  /* line-height: 80px; */
   text-shadow: 0 0 5px #e894ff;
-  /* 0 0 10px #DB5FFF, */
-  /* 0 0 20px #DB5FFF, */
-  /* 0 0 40px #DB5FFF, */
-  /* 0 0 80px #DB5FFF, */
-  /* 0 0 120px #DB5FFF;    */
-    
+ 
   align-items: center;
   
 }
@@ -174,7 +146,6 @@ min-height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
-/* background: #2196f3; */
 }
 
 .swiper-container {
@@ -287,7 +258,6 @@ text-size-adjust: auto;
 .testimonialBox .details h3 span
 {
 font-size: 12px;
-/* color: #f5d9d5; */
 
 }
 
@@ -440,8 +410,6 @@ font-size: 12px;
   
   font-size: 1.1em;
   font-family: 'Kavivanar', cursive;
-  /* font-family: 'Caveat', cursive; */
-/* font-family: 'Just Another Hand', cursive; */
   font-weight: 700;
 }
 .table .heart{
