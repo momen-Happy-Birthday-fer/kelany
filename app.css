@@ -96,16 +96,8 @@ body{
   src: local('BBSugarcoat'), url('https://fonts.cdnfonts.com/s/48402/Bbsugarcoat-BWXlx.woff') format('woff');
 }
 
-@import url('https://db.onlinewebfonts.com/c/cf984f65c2e069f0eed597bb0cee542d?family=HTNeonW01-Regular');
-@font-face {font-family: "HTNeonW01-Regular";
-  font-display:swap;
-  src: url("https://db.onlinewebfonts.com/t/cf984f65c2e069f0eed597bb0cee542d.eot"); /* IE9*/
-  src: url("https://db.onlinewebfonts.com/t/cf984f65c2e069f0eed597bb0cee542d.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("https://db.onlinewebfonts.com/t/cf984f65c2e069f0eed597bb0cee542d.woff2") format("woff2"), /* chrome firefox */
-  url("https://db.onlinewebfonts.com/t/cf984f65c2e069f0eed597bb0cee542d.woff") format("woff"), /* chrome firefox */
-  url("https://db.onlinewebfonts.com/t/cf984f65c2e069f0eed597bb0cee542d.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-  url("https://db.onlinewebfonts.com/t/cf984f65c2e069f0eed597bb0cee542d.svg#HTNeonW01-Regular") format("svg"); /* iOS 4.1- */
-}
+@font-face {font-family: "HTNeonW01-Regular"; font-display: swap; src: url("https://db.onlinewebfonts.com/t/cf984f65c2e069f0eed597bb0cee542d.eot"); src: url("https://db.onlinewebfonts.com/t/cf984f65c2e069f0eed597bb0cee542d.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/cf984f65c2e069f0eed597bb0cee542d.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/cf984f65c2e069f0eed597bb0cee542d.woff") format("woff"), url("https://db.onlinewebfonts.com/t/cf984f65c2e069f0eed597bb0cee542d.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/cf984f65c2e069f0eed597bb0cee542d.svg#HTNeonW01-Regular") format("svg"); }
+
 
 
 .neon-box{
