@@ -79,7 +79,23 @@ body{
   }
   
  
-  
+  /* <!--Neon Font--> */
+  @font-face {
+    font-family: 'Diamant handwriting';
+    font-style: normal;
+    font-weight: 400;
+    font-display:swap;
+    src: local('Diamant handwriting'), url('https://fonts.cdnfonts.com/s/32805/Diamant.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BBSugarcoat';
+  font-style: normal;
+  font-weight: 500;
+  font-display:swap;
+  src: local('BBSugarcoat'), url('https://fonts.cdnfonts.com/s/48402/Bbsugarcoat-BWXlx.woff') format('woff');
+}
+
 
 
   
