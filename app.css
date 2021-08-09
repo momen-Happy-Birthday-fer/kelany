@@ -86,7 +86,7 @@ body{
     font-weight: 400;
     font-display:swap;
     src: local('Diamant handwriting'), url('https://fonts.cdnfonts.com/s/32805/Diamant.woff') format('woff');
-}
+  }
 
 @font-face {
   font-family: 'BBSugarcoat';
@@ -104,14 +104,6 @@ body{
   url("http://db.onlinewebfonts.com/t/cf984f65c2e069f0eed597bb0cee542d.woff") format("woff"), /* chrome firefox */
   url("http://db.onlinewebfonts.com/t/cf984f65c2e069f0eed597bb0cee542d.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
   url("http://db.onlinewebfonts.com/t/cf984f65c2e069f0eed597bb0cee542d.svg#HTNeonW01-Regular") format("svg"); /* iOS 4.1- */
-}
-
-@font-face {
-  font-family: 'Diamant handwriting';
-  font-style: normal;
-  font-weight: 400;
-  font-display:swap;
-  src: local('Diamant handwriting'), url('https://fonts.cdnfonts.com/s/32805/Diamant.woff') format('woff');
 }
 
   
