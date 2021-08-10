@@ -1,4 +1,3 @@
-
 /* Reset .lead properties because of bootstrap */
 .lead {
 	margin: 0;
@@ -415,6 +414,7 @@ font-size: 12px;
     letter-spacing: 0.1em;
     font-family: 'HTNeonW01-Regular', cursive;
     margin-top: 20%;
+    margin-bottom: 7%;
     text-shadow: 0 0 1px #fff;
 
 }
