@@ -77,8 +77,7 @@ body{
   
  
 
-  @font-face{font-family:Nunito;font-style:normal;font-weight:200;font-display:swap;src:url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofA-seUYevN.ttf) format('truetype')}@font-face{font-family:Nunito;font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAjsOUYevN.ttf) format('truetype')}
-  @font-face{font-family:'Bad Script';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/badscript/v9/6NUT8F6PJgbFWQn47_x7lOw.ttf) format('truetype')}@font-face{font-family:Kavivanar;font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/kavivanar/v8/o-0IIpQgyXYSwhxP7_Jb4g.ttf) format('truetype')}
+  @font-face{font-family:Nunito;font-style:normal;font-weight:200;font-display:swap;src:url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofA-seUYevN.ttf) format('truetype')}@font-face{font-family:Nunito;font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAjsOUYevN.ttf) format('truetype')}@font-face{font-family:'Bad Script';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/badscript/v9/6NUT8F6PJgbFWQn47_x7lOw.ttf) format('truetype')}
 
   @font-face {
     font-family: 'Diamant handwriting';
@@ -396,8 +395,8 @@ font-size: 15px;
 
 .table td, .table th {
   
-  font-size: 1.1em;
-  font-family: 'Kavivanar', cursive;
+  font-size: 15px;
+  font-family: 'Nunito', cursive;
   font-weight: 700;
 }
 .table .heart{
