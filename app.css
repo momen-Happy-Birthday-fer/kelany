@@ -219,15 +219,11 @@ height: 60px;
 
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 30px;
   position: absolute;
   bottom: 50px;
 }
 
-#momen {
-
-  margin-top: 3px;
-}
 
 .testimonialBox .lead {
 
