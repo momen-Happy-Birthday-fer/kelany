@@ -221,7 +221,7 @@ height: 60px;
   align-items: center;
   margin-top: 20px;
   position: absolute;
-  bottom: 43px;
+  bottom: 42px;
 }
 
 
@@ -233,7 +233,7 @@ text-size-adjust: auto;
 }
 
 .testimonialBox .details #momen {
-margin-top: 5px ;
+  bottom: 45px;
 
 }
 .testimonialBox #arabic {
