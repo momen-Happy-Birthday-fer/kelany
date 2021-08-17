@@ -224,12 +224,19 @@ height: 60px;
   bottom: 50px;
 }
 
+#momen {
+
+  margin-top: 7px;
+  font-size: 15px;
+
+}
 
 .testimonialBox .lead {
 
 line-height: normal;
 text-align: left;
 text-size-adjust: auto;
+font-size: 15px;
 }
 
 .testimonialBox #arabic {
@@ -244,9 +251,6 @@ text-align: right;
   line-height: 1.1em;
 }
 
-.testimonialBox .lead{
-font-size: 15px;
-}
 
 .swiper-container-3d .swiper-container-left,
 .swiper-container-3d.swiper-container-right
